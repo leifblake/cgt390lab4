@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+h1, h2, a {
+  font-family: 'Josefin Sans', serif;
+  font-weight: 700; 
+  font-style: normal;
+}
+
+p, body {
+  font-family: 'Playfair', serif;
+  font-weight: 400; 
+  font-style: normal;
+  font-variation-settings: "wdth" 100; 
+}
+
+.profile-title {
+  font-size: 45pt;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  margin: 2rem;
+}
+
+.container {
+  display: flex; 
+  justify-content: center; 
+  gap: 2rem; 
+  flex-wrap: wrap; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  background-color: #f9f9f9;
+  text-align: center; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.card h2 {
+  margin: 0.5rem 0;
+}
+
+#home .container, #about .container {
+  padding-top: 0; 
+  padding-bottom: 0; 
+}
+
+#profiles .container {
+  padding-top: 0;
+}
