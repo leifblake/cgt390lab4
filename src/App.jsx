@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Card from './components/Card';
 import Wrapper from './components/Wrapper';
-import headshot1 from './assets/headshot1.png'; // Adjust path to where the images are stored
+import headshot1 from './assets/headshot1.png'; 
 import headshot2 from './assets/headshot2.png';
 
 import './index.css';
